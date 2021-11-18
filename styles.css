@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    background-color: #fff;
 }
 .dot{
     margin: 2.5px;
@@ -25,12 +25,21 @@ body{
     color: #fff;
 }
 .navbrand i{
-   font-size: 28px;
+   font-size: 25px;
+   margin-right: 2rem;
 }
 
 .navbrand a{
     color: #fff;
     font-size: 40px;
+}
+
+.img{
+    background-color: #fff;
+    background-image: url(yutb.png);
+    background-size: cover;
+    width: 60px;
+    height: 50px;
 }
 
 header{
@@ -114,6 +123,142 @@ input[type=search]{
 
 .v-wraper a{
     font-size: 20px;
+}
+
+
+
+.row{
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.col-sm-8{
+    width: 50%;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.video-stats, 
+.dsc,
+.dsc-text,
+.comments,
+.comm-form,
+.container,
+h3{
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.video-stats, h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-stats a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+.col-sm-4{
+    display: flex;
+   
+}
+
+.dsc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-dsc{
+    display: flex;
+}
+
+h1{
+    height: 50px;
+    width: 50px;
+    padding-top: 8px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-stats, button{
+    margin-top: 0.8rem ;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dsc-text{
+    margin: 1rem 0 2rem 4rem;
+}
+
+.dsc-text a{
+    text-decoration: none;
+}
+
+.comments{
+    display: flex;
+}
+
+.com-count{
+    margin-right: 3rem;
+}
+
+.comm-form{
+    display: flex;
+}
+
+.avatar i{
+    font-size: 45px;
+}
+
+.avatar{
+    margin-right: 1rem;
+}
+
+.form, .comment-content{
+    margin-top: 1rem;
+}
+
+input[type=text]{
+    width: 38.3rem;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    border-left: none;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+.container{
+    display: flex;
+}
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+img{
+    margin-right: .5rem;
 }
 
 @media screen and (max-width: 712px){
